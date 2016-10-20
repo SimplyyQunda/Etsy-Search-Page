@@ -1,22 +1,74 @@
+html {
+  background-color: #F4F5F0; }
+
+.blockimages {
+  margin: 8px;
+  font-size: 10px;
+  width: 200px;
+  float: right; }
+
+#topbar {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey; }
+
+.linkrow a {
+  color: grey; }
+
+img {
+  width: 200px;
+  margin-top: 30px; }
+
+.sidebar {
+  margin: 0px;
+  font-size: 12px;
+  width: 140px;
+  height: 326px;
+  background-color: white;
+  margin-top: 30px;
+  overflow: hidden;
+  display: inline-block; }
+
+p a {
+  color: #34A6C0; }
+
+#grid {
+  padding-left: 0px;
+  overflow: auto;
+  display: inline; }
+
 .etsyblock {
-  font-size: 15px; }
-  .etsyblock .header {
-    font-size: 35px; }
-  .etsyblock .navbar {
-    margin-left: 20px; }
-    .etsyblock .navbar form {
-      margin-left: 5px; }
-    .etsyblock .navbar #tab {
-      margin-left: 30px;
-      float: right; }
-    .etsyblock .navbar input {
-      width: 300px;
-      height: 20px; }
-    .etsyblock .navbar button {
-      height: 20px; }
-  .etsyblock a {
-    text-decoration: none;
-    color: grey;
-    margin-left: 15px; }
-    .etsyblock a #topbar {
-      margin: 20px; }
+  padding-right: 0px; }
+
+.header {
+  font-size: 35px;
+  color: #F65600;
+  padding-left: 20px; }
+
+a {
+  text-decoration: none;
+  margin-left: 20px; }
+
+#tab {
+  float: right; }
+
+input {
+  width: 300px;
+  height: 20px; }
+
+button {
+  height: 25px;
+  width: 60px; }
+
+nav {
+  background-color: white; }
+
+span a {
+  color: #34A6C0;
+  font-size: 12px; }
+
+.sell {
+  border: 1px solid lightblue;
+  width: 55px;
+  height: 26px;
+  border-radius: 2em;
+  text-align: center; }
