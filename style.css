@@ -4,7 +4,11 @@ html {
 .blockimages {
   margin: 8px;
   font-size: 10px;
-  width: 200px;
+  width: 210px;
+ /* height: 204px;*/
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
   float: right; }
 
 #topbar {
@@ -20,8 +24,9 @@ img {
 
 .sidebar {
   margin: 0px;
+  float: left;
   font-size: 12px;
-  width: 140px;
+  width: 200px;
   height: 326px;
   background-color: white;
   margin-top: 30px;
@@ -34,7 +39,7 @@ p a {
 #grid {
   padding-left: 0px;
   overflow: auto;
-  display: inline; }
+ /* display: block; */}
 
 .etsyblock {
   padding-right: 0px; }
