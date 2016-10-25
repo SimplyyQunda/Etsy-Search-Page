@@ -84,4 +84,8 @@ span a {
 .hovers {
   position: absolute;
   top: 34px;
-  right: 5px; }
+  right: 5px;
+  display: none; }
+
+.blockimages:hover .hovers {
+  display: block; }
