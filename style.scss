@@ -15,20 +15,17 @@ html{
 #topbar{
 	margin-top: 14px;
 	padding-bottom: 4px;
-// padding-top: 20px;
-// padding-bottom:20px;
-// border-bottom: 1px solid grey;
-// border-top: 1px solid grey;
 }
 
  .linkrow a {
+ 	font-size: 13px;
 	color: grey;
 }
 .etsy-grid-block img{
 	width:206px;
 	margin-top: 0px;
 	padding-right: 0px;
-	// border: 2px solid grey;
+	
 }
 
 .sectionbk{
@@ -85,10 +82,10 @@ padding-right: 46px;
 	text-overflow: ellipsis;
 }
 
-// .sectionbk {
-// 	background-color: white;
-// 	border: 1px solid grey;
-// }
+.whitebk {
+	background-color: white;
+	border: 1px solid lightgrey;
+}
 
 .header{
 	font-size: 35px;
@@ -141,12 +138,12 @@ nav{
 
 .hovers{
 	position: absolute;
-	top: 34px;
+	top: 4px;
 	right: 5px;
 	display: none;
 }
 
-.blockimages:hover .hovers{
+.container:hover .hovers{
 	display:block;
 }
 

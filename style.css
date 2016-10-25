@@ -15,6 +15,7 @@ html {
   padding-bottom: 4px; }
 
 .linkrow a {
+  font-size: 13px;
   color: grey; }
 
 .etsy-grid-block img {
@@ -62,6 +63,10 @@ p a {
 .title-section {
   text-overflow: ellipsis; }
 
+.whitebk {
+  background-color: white;
+  border: 1px solid lightgrey; }
+
 .header {
   font-size: 35px;
   color: #F65600;
@@ -93,11 +98,11 @@ nav {
 
 .hovers {
   position: absolute;
-  top: 34px;
+  top: 4px;
   right: 5px;
   display: none; }
 
-.blockimages:hover .hovers {
+.container:hover .hovers {
   display: block; }
 
 .cartel {

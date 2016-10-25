@@ -17,7 +17,9 @@ function extractInfo (data) {
 
 	<div class="bodyblk">
 		<div class="etsy-grid-block">
+		<a href="${url}"</a>
 		   	<img src=${image}>
+		
 		</div>
 
 			<div class="hovers">
