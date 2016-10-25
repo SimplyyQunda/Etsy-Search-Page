@@ -74,8 +74,11 @@ p a {
 
 a {
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 11px;
   color: #34A6C0; }
+
+.sign-in {
+  margin-left: 0px; }
 
 input {
   width: 314px;
@@ -94,6 +97,7 @@ nav {
   color: grey; }
 
 .box {
+  border: 1px solid #34A6C0;
   padding: 4px; }
 
 .hovers {
