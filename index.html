@@ -10,14 +10,24 @@
 	<nav class="navbar">
 		<form action="search">
 			<span class="header"> Etsy </span>
-			<input type="text" name="search">
-			<button type="submit">Search</button>
-			<span class="sell" id="tab"> <a href="#"> Sign in </a> </span>
+				<input type="text" name="search" placeholder="whiskey">
+				<button type="submit">Search </button>
+		<div class="corner">
+
+			<span class="sell" id="tab"> <a href="#"> Sell on Etsy </a> </span>
 			<span class="register" id="tab"> <a href="#"> Register </a> </span>
-			<span class="signin" id="tab"> <a href="#"> Sell on Etsy </a> </span>
+			<span class="box"> <a href="#"> Sign in </a> </span>
+			<!-- <hr class="vertical"> -->
+			<div class="cartel">
+			<span class="cart">
+				<img src=images/cart.png>
+			</span> <br>
+			<span class="bannerc">Cart</span>
+			</div>
+		</div>
 		</form>
-	
 		<div class="linkrow" id="topbar">
+		<hr class="hr">
 			<span> <a href="#"> Clothing and Accessories </a> </span>
 			<span> <a href="#"> Jewerly </a> </span>
 			<span> <a href="#"> Craft Supplies and Tools </a> </span>
@@ -27,10 +37,14 @@
 			<span> <a href="#"> Kids and Baby </a> </span>
 			<span> <a href="#"> Vintage </a> </span>
 		</div>
+		<hr class="hr">
 	</nav>
 	<div class="sidebar">
+	<div class="topresult">
 		<p class="show">Show results for:</p>
+	</div>
 
+	<div class="whitebk">
 		<span class="sidetitle"> All categories 
 		<p> <a href="#"> Home and Lving </a> </p>
 		<p> <a href="#"> Art and Collectibles </a> </p>
@@ -48,7 +62,8 @@
 		<p> <a href="#"> Toys and Games </a> </p>
 		<p> <a href="#"> Pet Supplies </a> </p>
 		</span>
-	
+	</div>
+
 	</div>	
 	<div class="etsygrid" id="grid"> </div>
 </div>

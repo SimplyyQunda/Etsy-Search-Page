@@ -2,10 +2,10 @@ html{
 	background-color: #F4F5F0;
 }
 
-.blockimages{
+.container{
 	margin: 8px;
 	font-size: 10px;
-	width:200px;
+	width:208px;
 	white-space: nowrap;
 	float: right;
 	overflow: hidden;
@@ -13,31 +13,52 @@ html{
 }
 
 #topbar{
+	margin-top: 14px;
+	padding-bottom: 4px;
 // padding-top: 20px;
 // padding-bottom:20px;
-border-bottom: 1px solid grey;
-border-top: 1px solid grey;
+// border-bottom: 1px solid grey;
+// border-top: 1px solid grey;
 }
 
  .linkrow a {
 	color: grey;
 }
 .etsy-grid-block img{
-	width:200px;
-	margin-top: 30px;
+	width:206px;
+	margin-top: 0px;
+	padding-right: 0px;
+	// border: 2px solid grey;
+}
 
+.sectionbk{
+	background-color: white;
+}
+
+.pricebk{
+	color: lightgreen;
+	float: right;
+}
+
+.storenm{
+	color: grey;
 }
 
 .sidebar{
 	margin: 0px;
 	font-size: 12px;
-	width: 140px;
+	width: 200px;
 	height: 326px;
-	background-color: white;
 	margin-top: 30px;
 	float: left;
 	overflow: hidden;
 	display: inline-block;
+	padding-left:32px;
+
+}
+
+.bodyblk{
+	border: 1px solid lightgrey;
 }
 
 
@@ -52,6 +73,7 @@ padding-left: 0px;
 overflow: auto;
 display: block;
 overflow:hidden;
+padding-right: 46px;
 
 }
 
@@ -63,6 +85,11 @@ overflow:hidden;
 	text-overflow: ellipsis;
 }
 
+// .sectionbk {
+// 	background-color: white;
+// 	border: 1px solid grey;
+// }
+
 .header{
 	font-size: 35px;
 	color: #F65600;
@@ -71,42 +98,46 @@ overflow:hidden;
 
 a {
 	text-decoration: none;
-	// color: grey;
  	margin-left: 20px;
+ 	color: #34A6C0;
 }
 
-#tab{
-	float: right;
-}
+
+// #tab{
+// 	float: right;
+
+// }
 
 input {
-	width: 300px;
-	height: 20px;
+	width: 314px;
+	height: 27px;
 }
 
 button {
-	height: 25px;
-	width: 60px;
+	background-color: #34A6C0;
+	color:white;
+	height: 32px;
+	width: 63px;
 }
 
 nav{
 	background-color: white;
 }
 
-span a{
-	color: #34A6C0;
-	font-size: 12px;
+// span a{
+// 	color: #34A6C0;
+// 	font-size: 12px;
+// }
+
+.hr{
+	color: grey;
 }
 
-.sell{
-	border:1px solid lightblue;
-	width: 55px;
-	height: 26px;
-	border-radius: 2em;
-
-	text-align: center;
-
+.box{
+	 // border: 1px solid #34A6C0;
+	 padding: 4px;
 }
+
 
 .hovers{
 	position: absolute;
@@ -119,3 +150,26 @@ span a{
 	display:block;
 }
 
+.cartel{
+	float: right;
+	margin-top:-8px;
+	padding-right: 88px;
+	color: grey;
+}
+
+.cart img{
+	width: 21px;
+	color: grey;
+
+	img{
+		color: grey;
+	}
+}
+
+.bannerc{
+	font-size: 13px;
+}
+.corner{
+	margin-left: 838px;
+	font-size: 14px
+}

@@ -1,36 +1,50 @@
 html {
   background-color: #F4F5F0; }
 
-.blockimages {
+.container {
   margin: 8px;
   font-size: 10px;
-  width: 200px;
+  width: 208px;
   white-space: nowrap;
   float: right;
   overflow: hidden;
   position: relative; }
 
 #topbar {
-  border-bottom: 1px solid grey;
-  border-top: 1px solid grey; }
+  margin-top: 14px;
+  padding-bottom: 4px; }
 
 .linkrow a {
   color: grey; }
 
 .etsy-grid-block img {
-  width: 200px;
-  margin-top: 30px; }
+  width: 206px;
+  margin-top: 0px;
+  padding-right: 0px; }
+
+.sectionbk {
+  background-color: white; }
+
+.pricebk {
+  color: lightgreen;
+  float: right; }
+
+.storenm {
+  color: grey; }
 
 .sidebar {
   margin: 0px;
   font-size: 12px;
-  width: 140px;
+  width: 200px;
   height: 326px;
-  background-color: white;
   margin-top: 30px;
   float: left;
   overflow: hidden;
-  display: inline-block; }
+  display: inline-block;
+  padding-left: 32px; }
+
+.bodyblk {
+  border: 1px solid lightgrey; }
 
 p a {
   color: #34A6C0; }
@@ -39,7 +53,8 @@ p a {
   padding-left: 0px;
   overflow: auto;
   display: block;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-right: 46px; }
 
 .etsyblock {
   padding-right: 0px; }
@@ -54,32 +69,27 @@ p a {
 
 a {
   text-decoration: none;
-  margin-left: 20px; }
-
-#tab {
-  float: right; }
+  margin-left: 20px;
+  color: #34A6C0; }
 
 input {
-  width: 300px;
-  height: 20px; }
+  width: 314px;
+  height: 27px; }
 
 button {
-  height: 25px;
-  width: 60px; }
+  background-color: #34A6C0;
+  color: white;
+  height: 32px;
+  width: 63px; }
 
 nav {
   background-color: white; }
 
-span a {
-  color: #34A6C0;
-  font-size: 12px; }
+.hr {
+  color: grey; }
 
-.sell {
-  border: 1px solid lightblue;
-  width: 55px;
-  height: 26px;
-  border-radius: 2em;
-  text-align: center; }
+.box {
+  padding: 4px; }
 
 .hovers {
   position: absolute;
@@ -89,3 +99,22 @@ span a {
 
 .blockimages:hover .hovers {
   display: block; }
+
+.cartel {
+  float: right;
+  margin-top: -8px;
+  padding-right: 88px;
+  color: grey; }
+
+.cart img {
+  width: 21px;
+  color: grey; }
+  .cart img img {
+    color: grey; }
+
+.bannerc {
+  font-size: 13px; }
+
+.corner {
+  margin-left: 838px;
+  font-size: 14px; }

@@ -13,27 +13,32 @@ function extractInfo (data) {
 	var url = etsy.url;
 
 	var etsyblock = `
-	<div class="blockimages">
-	   <div class="etsy-grid-block">
-	   <img src=${image}>
-	   </div>
+<div class="container">
 
-	   <div class="hovers">
-		<img src=images/heart.png>
-		<img src=images/hamburger.png>
-	   </div>
+	<div class="bodyblk">
+		<div class="etsy-grid-block">
+		   	<img src=${image}>
+		</div>
 
-	   <div class="title-section">
-	   ${title}
-	   </div>
+			<div class="hovers">
+				<img src=images/heart.png>
+				<img src=images/hamburger.png>
+			</div>
 
-	   <div class="bottom-section">
-	   <span class="storenm"> ${storeName} </span>
-	   <span class="pricebk"> $${price} </span>
-	   </div>
+		<div class="sectionbk">
+				<div class="title-section">
+					${title}
+				</div>
 
+		    	<div class="bottom-section">
+				   <span class="storenm"> ${storeName} </span>
+				   <span class="pricebk"> $${price} </span>
+				</div>
+	   	</div>
+	
+	</div>	
 	   
-	 </div>   
+</div>   
 	 `;
 
 	 $(".etsygrid").append(etsyblock);
