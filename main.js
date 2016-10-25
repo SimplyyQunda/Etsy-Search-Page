@@ -18,13 +18,21 @@ function extractInfo (data) {
 	   <img src=${image}>
 	   </div>
 
+	   <div class="hovers">
+		<img src=images/heart.png>
+		<img src=images/hamburger.png>
+	   </div>
+
 	   <div class="title-section">
 	   ${title}
 	   </div>
 
 	   <div class="bottom-section">
-	   ${storeName} $${price}
+	   <span class="storenm"> ${storeName} </span>
+	   <span class="pricebk"> $${price} </span>
 	   </div>
+
+	   
 	 </div>   
 	 `;
 

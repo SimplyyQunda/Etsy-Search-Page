@@ -4,12 +4,11 @@ html {
 .blockimages {
   margin: 8px;
   font-size: 10px;
-  width: 210px;
- /* height: 204px;*/
- white-space: nowrap;
- overflow: hidden;
- text-overflow: ellipsis;
-  float: right; }
+  width: 200px;
+  white-space: nowrap;
+  float: right;
+  overflow: hidden;
+  position: relative; }
 
 #topbar {
   border-bottom: 1px solid grey;
@@ -18,18 +17,18 @@ html {
 .linkrow a {
   color: grey; }
 
-img {
+.etsy-grid-block img {
   width: 200px;
   margin-top: 30px; }
 
 .sidebar {
   margin: 0px;
-  float: left;
   font-size: 12px;
-  width: 200px;
+  width: 140px;
   height: 326px;
   background-color: white;
   margin-top: 30px;
+  float: left;
   overflow: hidden;
   display: inline-block; }
 
@@ -39,10 +38,14 @@ p a {
 #grid {
   padding-left: 0px;
   overflow: auto;
- /* display: block; */}
+  display: block;
+  overflow: hidden; }
 
 .etsyblock {
   padding-right: 0px; }
+
+.title-section {
+  text-overflow: ellipsis; }
 
 .header {
   font-size: 35px;
@@ -77,3 +80,8 @@ span a {
   height: 26px;
   border-radius: 2em;
   text-align: center; }
+
+.hovers {
+  position: absolute;
+  top: 34px;
+  right: 5px; }
